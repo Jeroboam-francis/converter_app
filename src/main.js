@@ -43,7 +43,7 @@ switch(inputUnit){
         break;
     case "decimeters":
         unit ="dm";
-        displayValue`
+        displayValue=`
          <p>${inputValue} ${unit} is equals to ${inputValue *100} mm</p>
          <p>${inputValue} ${unit} is equals to ${inputValue *10} cm</p>
          <p>${inputValue} ${unit} is equals to ${inputValue *1} dm</p>

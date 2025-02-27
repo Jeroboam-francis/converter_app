@@ -33,6 +33,7 @@ input, button,select{
 
 #outputValue{
   align-items: center;
+  justify-self: center;
 }
 
 #convertbtn{
@@ -52,6 +53,7 @@ input, button,select{
   align-items: center;
   padding: 1rem;
   justify-content: center;
+
 
  }
   
