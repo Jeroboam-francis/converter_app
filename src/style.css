@@ -31,6 +31,10 @@ input, button,select{
   gap: 2rem;
 }
 
+#outputValue{
+  align-items: center;
+}
+
 #convertbtn{
   background-color: black;
   color: white;
@@ -47,6 +51,7 @@ input, button,select{
  form{
   align-items: center;
   padding: 1rem;
+  justify-content: center;
 
  }
   
