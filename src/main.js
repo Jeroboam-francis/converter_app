@@ -1,7 +1,8 @@
 const outputValue=document.getElementById("outputValue");
 
 
-document.addEventListener('DOMContentLoaded', ()=>{
+document.addEventListener('DOMContentLoaded', (e)=>{
+    e.preventDefault
     document.getElementById("convertbtn").addEventListener("click",()=>converter());
 });
 function converter(){
@@ -13,9 +14,12 @@ function converter(){
 switch(inputUnit){
     case "millimeters":
         let unit="mm"
-        displayValue=[
-            <p>`${inputValue}` `${unit}` is equal to `${inputValue}*1`</p>    
-        ]
+        displayValue=outputValue.innerHTML=`
+        <p>${inputValue} ${unit} is equals to ${inputValue*1} millimeters</p>
+        <p>${inputValue} ${unit} is equals to ${inputValue*0.01} centimeters</p>
+
+        
+        `
          
         break;
     case "centimeters":
