@@ -16,7 +16,7 @@ switch(inputUnit){
     case "millimeters":
         unit="mm"
         displayValue=`
-        <p>${inputValue} ${unit} is equals to ${inputValue *1} mm</p>
+        <p><strong>${inputValue} ${unit}</strong> is equals to <strong> ${inputValue *1} mm</strong></p>
          <p>${inputValue} ${unit} is equals to ${inputValue *0.1} Cm</p>
          <p>${inputValue} ${unit} is equals to ${inputValue *0.01} dm</p>
          <p>${inputValue} ${unit} is equals to ${inputValue *0.001} M</p>
@@ -30,13 +30,13 @@ switch(inputUnit){
     case "centimeters":
          unit="cm"
         displayValue=`
-         <p>${inputValue} ${unit} is equals to ${inputValue *10} mm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *1} cm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.1} dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.01} M</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.001} Dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.0001} Hm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.00001} Km</p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *10} mm</strong></p>
+         <p><strong>inputValue} ${unit}</strong> is equals to<strong> ${inputValue *1} cm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.1} dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.01} M</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.001} Dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.0001} Hm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.00001} Km</strong></p>
         `
 
         
@@ -44,26 +44,26 @@ switch(inputUnit){
     case "decimeters":
         unit ="dm";
         displayValue=`
-         <p>${inputValue} ${unit} is equals to ${inputValue *100} mm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *10} cm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *1} dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.1} M</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.01} Dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.001} Hm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.0001} Km</p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *100} mm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *10} cm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *1} dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.1} M</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.01} Dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.001} Hm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.0001} Km</strong></p>
         `
 
         break;
     case "meters":
         unit ="M"
         displayValue=`
-        <p>${inputValue} ${unit} is equals to ${inputValue *1000} mm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *100} cm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *10} dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *1} M</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.1} Dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.01} Hm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.001} Km</p>
+        <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *1000} mm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *100} cm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *10} dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *1} M</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.1} Dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.01} Hm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.001} Km</strong></p>
         `
         break;
 
@@ -71,39 +71,39 @@ switch(inputUnit){
         unit ="Dm";
         displayValue=`
         
-        <p>${inputValue} ${unit} is equals to ${inputValue *10000} mm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *1000} cm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *100} dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *10} M</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *1} Dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.1} Hm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.01} Km</p>
+        <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *10000} mm</strong></p>
+         <p><strong>${inputValue} ${unit} </strong>is equals to <strong>${inputValue *1000} cm</strong></p>
+         <p><strong>${inputValue} ${unit} </strong>is equals to<strong> ${inputValue *100} dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *10} M</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *1} Dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.1} Hm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.01} Km</strong></p>
         `
 
         break;
     case "hectometers":
         unit="Hm";
         displayValue=`
-         <p>${inputValue} ${unit} is equals to ${inputValue *100000} mm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *10000} cm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *1000} dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *100} M</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *10} Dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *1} Hm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.1} Km</p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *100000} mm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *10000} cm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *1000} dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *100} M</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *10} Dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *1} Hm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *0.1} Km</strong></p>
         `
 
         break;
     case "kilometer":
        unit ="Km";
     displayValue=`
-    <p>${inputValue} ${unit} is equals to ${inputValue *1000000} mm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *100000} cm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *10000} dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *1000} M</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *100} Dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *10} Hm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *1} Km</p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *1000000} mm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *100000} cm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *10000} dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *1000} M</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *100} Dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *10} Hm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to <strong>${inputValue *1} Km</strong></p>
         `
 
         break;       
@@ -112,5 +112,9 @@ switch(inputUnit){
 outputValue.innerHTML=displayValue;
 
 
+}
+
+document.getElementById("#inputValue").style={
+    
 }
 
