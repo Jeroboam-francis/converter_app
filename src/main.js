@@ -17,12 +17,12 @@ switch(inputUnit){
         unit="mm"
         displayValue=`
         <p><strong>${inputValue} ${unit}</strong> is equals to <strong> ${inputValue *1} mm</strong></p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.1} Cm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.01} dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.001} M</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.0001} Dm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.00001} Hm</p>
-         <p>${inputValue} ${unit} is equals to ${inputValue *0.000001} Km</p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.1} Cm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.01} dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.001} M</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.0001} Dm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.00001} Hm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.000001} Km</strong></p>
         
         `
          
@@ -31,7 +31,7 @@ switch(inputUnit){
          unit="cm"
         displayValue=`
          <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *10} mm</strong></p>
-         <p><strong>inputValue} ${unit}</strong> is equals to<strong> ${inputValue *1} cm</strong></p>
+         <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *1} cm</strong></p>
          <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.1} dm</strong></p>
          <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.01} M</strong></p>
          <p><strong>${inputValue} ${unit}</strong> is equals to<strong> ${inputValue *0.001} Dm</strong></p>
